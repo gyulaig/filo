@@ -24,6 +24,7 @@ namespace Filo
             InitializeUI();
         }
 
+        // not a single clue what this is, need it for mouse button support
         protected override void OnMouseDown(MouseButtonEventArgs e)
         {
             base.OnMouseDown(e);
@@ -344,4 +345,5 @@ namespace Filo
             NavigateToPath(ToolbarPathTextBox.Text);
         }
     }
+
 }

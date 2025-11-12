@@ -236,6 +236,7 @@ namespace Filo
             return $"{len:0.#} {sizes[order]}";
         }
 
+        // garbage AI code just to make it work
         public class InputDialog : Window
         {
             private TextBox textBox;
@@ -283,3 +284,4 @@ namespace Filo
         }
     }
 }
+
